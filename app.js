@@ -7,7 +7,7 @@ for (var i = 0, colour = "#"; i < 3; colour += ("00" + ((hash >> i++ * 8) & 0xFF
 
 app.get('/', function (req, res) {
   res.send('<!DOCTYPE html><html><head>' +
-    '<title>HTML5 SVG demo</title></head><body>' +
+    '<title>Node scaling demo</title></head><body>' +
       '<h1>' + os.hostname() + '</h1>' +
       '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">' +
         '<circle cx="50" cy="50" r="48" fill="' + colour + '" stroke="#000"/>' +
