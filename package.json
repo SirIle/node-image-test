@@ -1,0 +1,14 @@
+{
+  "name": "node-image-test",
+  "version": "1.0.0",
+  "description": "Simple test program returning image with colors based on hostname",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ilkka Anttonen",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
