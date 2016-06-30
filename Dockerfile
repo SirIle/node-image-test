@@ -1,4 +1,4 @@
-FROM mhart/alpine-node-base
+FROM mhart/alpine-node:latest
 MAINTAINER Ilkka Anttonen version: 0.1
 COPY app.js /app.js
 COPY node_modules /node_modules
